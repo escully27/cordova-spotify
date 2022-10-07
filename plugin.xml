@@ -28,7 +28,7 @@
          -->
         <framework src="src/android/build.gradle" custom="true" type="gradleReference" />
         <resource-file
-            src="src/android/spotify-sdk/spotify-app-remote-release-0.7.2.aar"
+            src="src/android/spotify-sdk/app-remote-lib/spotify-app-remote-release-0.7.2.aar"
             target="libs/spotify-sdk.aar" />
     </platform>
 
