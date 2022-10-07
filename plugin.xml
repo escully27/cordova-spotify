@@ -49,6 +49,7 @@
 
         <source-file src="src/ios/CordovaSpotify.swift" />
         <header-file src="src/ios/CordovaSpotify-Bridging-Header.h" />
+        <source-file src="src/ios/CordovaSpotifySceneDelegate.swift" />
 
         <framework src="src/ios/spotify-sdk/SpotifyiOS.framework" custom="true" />
 
