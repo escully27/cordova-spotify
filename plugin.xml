@@ -47,16 +47,9 @@
             </array>
         </config-file>
 
-        <header-file src="src/ios/CordovaSpotify.h" />
-        <source-file src="src/ios/CordovaSpotify.m" />
-        <header-file src="src/ios/CordovaSpotifyEventEmitter.h" />
-        <source-file src="src/ios/CordovaSpotifyEventEmitter.m" />
-        <header-file src="src/ios/AudioStreamingDelegate.h" />
-        <source-file src="src/ios/AudioStreamingDelegate.m" />
-        <header-file src="src/ios/AudioStreamingPlaybackDelegate.h" />
-        <source-file src="src/ios/AudioStreamingPlaybackDelegate.m" />
+        <source-file src="src/ios/CordovaSpotify.swift" />
 
         <framework src="src/ios/spotify-sdk/SpotifyiOS.framework" custom="true" />
-        <framework src="AVFoundation.framework" />
+
     </platform>
 </plugin>
