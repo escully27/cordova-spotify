@@ -12,7 +12,7 @@
         <hook type="before_plugin_install" src="install-android.sh" />
 
         <config-file target="config.xml" parent="/*">
-            <feature name="SpotifyConnector">
+            <feature name="CordovaSpotify">
                 <param name="android-package" value="rocks.festify.CordovaSpotify" />
             </feature>
         </config-file>
@@ -36,7 +36,7 @@
         <hook type="before_plugin_install" src="install-ios.sh" />
 
         <config-file target="config.xml" parent="/*">
-            <feature name="SpotifyConnector">
+            <feature name="CordovaSpotify">
                 <param name="ios-package" value="CordovaSpotify" />
             </feature>
         </config-file>
@@ -48,6 +48,7 @@
         </config-file>
 
         <source-file src="src/ios/CordovaSpotify.swift" />
+        <header-file src="src/ios/CordovaSpotify-Bridging-Header.h" />
 
         <framework src="src/ios/spotify-sdk/SpotifyiOS.framework" custom="true" />
 
