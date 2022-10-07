@@ -56,9 +56,7 @@
         <header-file src="src/ios/AudioStreamingPlaybackDelegate.h" />
         <source-file src="src/ios/AudioStreamingPlaybackDelegate.m" />
 
-        <framework src="src/ios/spotify-sdk/SpotifyAudioPlayback.framework" custom="true" />
-        <framework src="src/ios/spotify-sdk/SpotifyAuthentication.framework" custom="true" />
-        <framework src="src/ios/spotify-sdk/SpotifyMetadata.framework" custom="true" />
+        <framework src="src/ios/spotify-sdk/SpotifyiOS.framework" custom="true" />
         <framework src="AVFoundation.framework" />
     </platform>
 </plugin>
